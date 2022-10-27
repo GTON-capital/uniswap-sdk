@@ -9,7 +9,8 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  GTON = 1000
+  GTON = 1000,
+  GTON_TESTNET = 50021
 }
 
 export enum TradeType {
