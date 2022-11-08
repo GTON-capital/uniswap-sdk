@@ -83,7 +83,7 @@ export const WETH = {
   [ChainId.GTON]: new Token(ChainId.GTON, '0xeFF66B4A84C8a6b69b99EB1C5e39aF8fc35d13db', 18, 'WGCD', 'Wrapped GCD'),
   [ChainId.GTON_TESTNET]: new Token(
     ChainId.GTON_TESTNET,
-    '0x6B2a64C134bAe278B4F28240F305F6cecfeAFE7a',
+    '0xeFF66B4A84C8a6b69b99EB1C5e39aF8fc35d13db',
     18,
     'WGCD',
     'Wrapped GCD'
