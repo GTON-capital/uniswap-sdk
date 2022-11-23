@@ -5,17 +5,17 @@ env:
 on:
   pull_request:
     branches:
-      - v2
+      - feature/ogs-sdk
   push:
     branches:
-      - v2
+      - feature/ogs-sdk
 
 jobs:
   test:
     strategy:
       matrix:
         node: ['10.x', '12.x']
-        os: [ubuntu-latest, macOS-latest]
+        os: [ubuntu-latest]
 
     runs-on: ${{ matrix.os }}
 
