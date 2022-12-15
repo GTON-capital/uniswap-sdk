@@ -10,7 +10,8 @@ export enum ChainId {
   GÖRLI = 5,
   KOVAN = 42,
   GTON = 1000,
-  GTON_TESTNET = 50021
+  GTON_TESTNET = 50021,
+  GTON_TESTNET_OPTIMISM = 50022
 }
 
 export enum TradeType {
@@ -24,7 +25,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x33D79a8C9b3F7108b76bCcf8D4f4C92C5B5d7435'
+export const FACTORY_ADDRESS = '0x620F4D5F74F136de8D8B1f7730958C9D5B00c4f4'
 
 export const INIT_CODE_HASH = '0xa472181d689ebdf6a35e6a8b6df0144361e21a0416e398e2619e2b051f60fa6e'
 

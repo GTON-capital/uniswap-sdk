@@ -87,5 +87,12 @@ export const WETH = {
     18,
     'WGCD',
     'Wrapped GCD'
+  ),
+  [ChainId.GTON_TESTNET_OPTIMISM]: new Token(
+    ChainId.GTON_TESTNET_OPTIMISM,
+    '0x4200000000000000000000000000000000000006',
+    18,
+    'WGCD',
+    'Wrapped GCD'
   )
 }
